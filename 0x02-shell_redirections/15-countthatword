@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -c "bin" /etc/passwd | echo "The number of lines containing the pattern 'bin' in /etc/passwd is: $(cat)"
+ls -1 | wc -l | echo "The number of files in the current directory is: $(cat)"
