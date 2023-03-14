@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -c "bin" /etc/passwd | echo "$(cat) lines contain the pattern 'bin'"
+grep -c 'bin' /etc/passwd
