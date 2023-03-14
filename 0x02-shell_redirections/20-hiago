@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "CenTer of aCtion" | tr -d cC
