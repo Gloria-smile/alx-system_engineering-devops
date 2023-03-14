@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "AccePt input" | tr AcZe ceZe
+echo "$1" | tr 'Ac' 'Ze'
