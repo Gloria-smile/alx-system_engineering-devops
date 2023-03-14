@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -print0 | du --files0-from=- -ch | tail -1
+ls -t | head -n 10
