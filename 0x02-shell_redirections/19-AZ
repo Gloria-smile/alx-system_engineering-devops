@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "AccePt input" | tr AcZe ceZe
